@@ -4,7 +4,7 @@ from tkinter import filedialog
 
 root = tkinter.Tk()
 root.withdraw()
-        
+
 def encrypt_pdf(filename=filedialog.askopenfile().name):
     pdf_reader = PdfFileReader(filename)
     pdf_writer = PdfFileWriter()
