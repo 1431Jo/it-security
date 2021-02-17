@@ -1,7 +1,5 @@
 //encryption)
-
 //I use the Ceasar encryption
-
 //For plainText insert text
 var plainText = "";
 var displacement = 3;
