@@ -1,7 +1,7 @@
 //decryption
 
-var cipherText = "Nhnvb";
-var displacement = -3;
+var cipherText = "Gjnxunjq";
+var displacement = -5;
 var plainText;
 
 var charCodelittleA = "a".charCodeAt(0);
