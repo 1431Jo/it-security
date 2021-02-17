@@ -1,8 +1,8 @@
 //encryption)
 //I use the Ceasar encryption
 //For plainText insert text
-var plainText = "";
-var displacement = 3;
+var plainText = "Beispiel";
+var displacement = 5;
 var cipherText;
 
 var charCodelittleA = "a".charCodeAt(0);
