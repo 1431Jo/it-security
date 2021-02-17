@@ -21,7 +21,7 @@ function characterTransform(charCode, startAsciiCode) {
     return startAsciiCode + transformedCode;
 }
 
-function textTransformieren(outputText) {
+function textTransform(outputText) {
     var result = "";
 
     for (var i = 0; i < outputText.length; i++) {
@@ -40,11 +40,11 @@ function textTransformieren(outputText) {
     return result;
 }
 
-cipherText = textTransformieren(plainText);
+cipherText = textTransform(plainText);
 
 console.log("Aus '" + plainText + "' wird '" + cipherText + "'.");
 
 displacement *= -1;
-plainText = textTransformieren(cipherText);
+plainText = textTransform(cipherText);
 
 console.log("Aus '" + cipherText + "' wird '" + plainText + "'.");
