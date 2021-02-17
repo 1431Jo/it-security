@@ -1,8 +1,8 @@
 //I use the Ceasar encryption
 
 //For plainText insert text
-var plainText = "";
-var displacement = 1;
+var plainText = "Keksy";
+var displacement = 3;
 var cipherText;
 
 var charCodelittleA = "a".charCodeAt(0);
@@ -43,8 +43,3 @@ function textTransform(outputText) {
 cipherText = textTransform(plainText);
 
 console.log("Aus '" + plainText + "' wird '" + cipherText + "'.");
-
-displacement *= -1;
-plainText = textTransform(cipherText);
-
-console.log("Aus '" + cipherText + "' wird '" + plainText + "'.");
