@@ -17,7 +17,7 @@ def decrypt(filename, key):
     with open("d_" + filename, "wb") as decrypted_out:
         decrypted_out.write(decrypted)
 
-filename = Song1.txt
+filename = input('Nenne Datei ')
 encrypt(filename)
 
 decrypt(filename, filename + ".key")
